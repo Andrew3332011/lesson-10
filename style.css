@@ -1,0 +1,47 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    background-color: teal;
+    height: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.firstsection {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    border-right: 2px solid black;
+    padding: 20px;
+}
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer {
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 30px;
+}
+
+* {
+    margin: 0;
+}
